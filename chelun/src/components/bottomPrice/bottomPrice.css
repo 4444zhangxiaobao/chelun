@@ -1,0 +1,158 @@
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.bottomPrice{
+    width:100%;
+    height:100%;
+    /* background:#eee; */
+}
+input{
+    outline:none;
+}
+.btop{
+    width:100%;
+    height:1rem;
+    background:#fff;
+}
+.btop dl{
+    width:100%;
+    height:1rem;
+    display:flex;
+    flex-direction:row;
+    padding:0 0.1rem;
+    box-sizing:border-box;
+}
+.btop dl dt{
+    width:33%;
+    height:0.6rem;
+    margin-top:0.2rem;
+    border:1px solid #ccc;
+}
+.btop dl dt img{
+    width:100%;
+    height:100%;
+}
+.btop dl dd{
+    width:67%;
+    margin-top:0.2rem;
+    padding:0 0.1rem;
+}
+.btop dl dd h4{
+    font-weight:normal;
+}
+.btop dl dd p{
+    font-size:0.12rem;
+    margin-top:0.1rem;
+}
+.btop dl dd p b{
+    position: absolute;
+    top:0.3rem;
+    right:0.1rem;
+    font-size:0.18rem;
+    color:#666;
+}
+.bcenter{
+    width:100%;
+    height:2rem;
+    background:#fff;
+    /* padding:0 0.1rem;
+    box-sizing:border-box; */
+}
+.ctop{
+    width:100%;
+    height:0.2rem;
+    background:#eee;
+    padding:0 0.1rem;
+    box-sizing:border-box;
+    line-height:0.2rem;
+    font-size:0.12rem;
+}
+.bcenter p{
+    width:100%;
+    height:0.4rem;
+    border-bottom:1px solid #eee;
+    line-height:0.4rem;
+    padding:0 0.1rem;
+    box-sizing:border-box;
+}
+.bcenter p span{
+    margin-left:75%;
+}
+.bcenter p input{
+    outline:none;
+    width:80%;
+    height:0.35rem;
+    margin-left:7%;
+    border:0;
+    text-indent:30%;
+}
+.btn{
+    width:100%;
+    height:0.35rem;
+    border:0;
+    background:rgb(96, 109, 230);
+    border-radius: 0.1rem;
+    margin-top:0.1rem;
+    color:#fff;
+
+}
+.bfooter{
+    width:100%;
+}
+.ftop{
+    width:100%;
+    height:0.2rem;
+    font-size:0.12rem;
+    line-height:0.2rem;
+    text-indent:0.1rem;
+    background:#eee;
+}
+.fcenter{
+    width:100%;
+    height:0.6rem;
+    background:#fff;
+    border-bottom:1px solid #ccc;
+    display:flex;
+    flex-direction:row;
+}
+.fcenter>p{
+    width:8%;
+    text-align:center;
+    height:0.6rem;
+    line-height:0.6rem;
+}
+.fcenter dl{
+    width:92%;
+    height:0.6rem;
+    display:flex;
+    flex-direction:row;
+}
+.fcenter dl dt{
+    width:65%;
+    margin-left:0.07rem;
+}
+.fcenter dl dt p{
+    margin-top:0.1rem;
+    font-size:0.12rem;
+}
+.fcenter dl dt h6{
+    font-size:0.1rem;
+    font-weight: normal;
+    margin-top:0.06rem;
+}
+.fcenter dl dd{
+    margin-left:10%;
+}
+.fcenter dl dd h6{
+    margin-top:0.1rem;
+    font-size:0.12rem;
+    font-weight: normal;
+    color:red;
+}
+.fcenter dl dd h5{
+    margin-top:0.1rem;
+    font-weight: normal;
+    color:#666;
+}

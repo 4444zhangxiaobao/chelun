@@ -1,0 +1,100 @@
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.city{
+    width:100%;
+    height:100%;
+}
+.cityOne{
+    /* position: relative; */
+    width:100%;
+    height:100%;
+}
+.cityTop{
+    width:100%;
+    height:0.6rem;
+}
+.cityTop h4{
+    width:100%;
+    height:0.2rem;
+    font-weight:normal;
+    font-size:0.12rem;
+    text-indent:0.1rem;
+    line-height:0.2rem;
+    background:#eee;
+}
+.cityTop p{
+    width:100%;
+    height:0.4rem;
+    text-indent:0.1rem;
+    line-height:0.4rem;
+}
+.cityCenter{
+    width:100%;
+}
+.cityCenter h5{
+    font-weight: normal;
+    width:100%;
+    height:0.2rem;
+    background:#eee;
+    line-height:0.2rem;
+    text-indent:0.1rem;
+}
+.cityCenter p{
+    width:100%;
+    text-indent:0.1rem;
+    height:0.4rem;
+    line-height: 0.4rem;
+    border-bottom:1px solid #eee;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+
+}
+.cityCenter p span{
+    display: inline-block;
+    width:85%;
+}
+.cityCenter p b{
+    width:15%;
+    text-align:center;
+    color:#666;
+    font-size:0.15rem;
+}
+
+.erjMark{
+    position: fixed;
+    top: 0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    z-index: 101;
+    background: rgba(0,0,0,.8);
+    -webkit-animation-name: skyset;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes skyset {
+    0% { width:0%;}
+    100% {width:80%;}
+}
+.marCenter{
+    position: absolute;
+    top:0;
+    right:0;
+    width:70%;
+    height: 100%;
+    overflow-y: scroll;
+    background: #fff;
+    /* color:#fff; */
+}
+.marCenter p{
+    width:100%;
+    height:0.4rem;
+    line-height:0.4rem;
+    border-bottom:1px solid #666;
+    font-size:0.12rem;
+    text-indent:0.1rem;
+}
